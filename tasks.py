@@ -19,7 +19,7 @@ def doc(ctx):
 
 @task
 def decls(ctx):
-    proj = LeanProject.from_path(ROOT/'quantum-Stein-lemma')
+    proj = LeanProject.from_path(ROOT)
     proj.pickle_decls(ROOT/'decls.pickle')
 
 @task(doc, decls, bp, web)
