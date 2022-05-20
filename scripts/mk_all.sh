@@ -8,7 +8,7 @@
 # Makes a ../src/$directory/all.lean importing all files inside $directory.
 # If $directory is omitted, creates `../src/all.lean`.
 
-cd "$( dirname "${BASH_SOURCE[0]}" )"/../src
+cd "$( dirname "${BASH_SOURCE[0]}" )"/../quantum-Stein-lemma/src
 if [[ $# = 1 ]]; then
   dir="$1"
 else
