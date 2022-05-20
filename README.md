@@ -36,3 +36,14 @@ inv all
 
 To view the web-version of the blueprint locally, run `inv serve` and navigate to
 `http://localhost:8000/` in your favorite browser.
+
+
+---
+
+```
+git clone https://github.com/quantum-Stein-lemma/quantum-Stein-lemma
+mv quantum-Stein-lemma/src ./
+mv quantum-Stein-lemma/leanpkg.toml ./
+rm -rf quantum-Stein-lemma/
+leanproject build
+```
