@@ -1,9 +1,11 @@
 src/all.lean
+src/
 decls.pickle
 decls.yaml
 *.olean
 /_target
 /leanpkg.path
+/leanpkg.toml
 .python-version
 .vscode
 
